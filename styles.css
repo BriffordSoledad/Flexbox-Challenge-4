@@ -1,0 +1,138 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.313rem;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1128px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-section {
+    display: flex;
+    min-width: 660px;
+    width: 100%;
+    height: 70vh;
+    background-color: #F3EED9;
+}
+
+.hero-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 550px;
+}
+
+.subtitle {
+    font-size: 1.125rem;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
+.hero-txt {
+    font-family: "Playfair", sans-serif;
+    font-weight: 900;
+    font-size: 3.75rem;
+    color: #824936;
+}
+
+/* Quality Design Section */
+
+.section-container {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quality-wrapper {
+    gap: 50px;
+}
+
+.row-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.quality-paragraph {
+    max-width: 530px;
+}
+
+.quality-heading {
+    font-family: "Playfair", sans-serif;
+    font-weight: 900;
+    text-align: center;
+    color: #824936;
+    font-size: 2.25rem;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+/* Made Section */
+
+.made-section {
+    background-color: #222C2A;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.made-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt-beige {
+    color: #F3EED9;
+}
+
+.made-text-wrapper p {
+    width: 75%;
+    align-self: flex-start;
+}
+
+.made-heading-text {
+    margin-bottom: 1em;
+}
+
+/* Created Section */
+
+.created-section {
+    background-color: #824936;
+    height: 50vh;
+    padding: 65px 0;
+}
+
+.created-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.created-img {
+    width: 40%;
+}
+
+.created-text-wrapper {
+    width: 50%;
+    align-self: flex-start;
+}
